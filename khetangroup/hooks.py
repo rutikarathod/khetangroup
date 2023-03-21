@@ -192,7 +192,16 @@ app_license = "MIT"
 #		"doctype": "{doctype_4}"
 #	}
 # ]
-
+fixtures=[
+    "Custom Field",
+     {"dt":"Report","filters":[
+        [
+            "module","in",[
+               "khetangroup"
+            ]
+        ]
+    ]},
+    ]
 # Authentication and authorization
 # --------------------------------
 
